@@ -119,25 +119,27 @@ Run locally with:
 - **Product Insights:** Top 10 products dominate sales → risk of overdependence  
 
 ---
+
 ## 🚀 How to Run
 
-1. **Clone the repo:**
-```bash
-git clone https://github.com/MdAjams/Retail-E-Commerce-Analytics-Forecasting.git
-cd Retail-Intelligence-Forecasting '''
+1. **Clone the repo:**  
+git clone https://github.com/MdAjams/Retail-E-Commerce-Analytics-Forecasting.git  
+cd Retail-Intelligence-Forecasting
 
-**Setup database MySQL)**
-- psql -U user -d retail_db -f Data/Schema.sql
-**Generate sample data:**
-- python Data/DataGeneration.py
-**Launch Streamlit app:**
-- streamlit run Streamlit_App/app.py
+2. **Setup database (MySQL):**  
+psql -U user -d retail_db -f Data/Schema.sql
+
+3. **Generate sample data:**  
+python Data/DataGeneration.py
+
+4. **Launch Streamlit app:**  
+streamlit run Streamlit_App/app.py
+
+---
+
 ## 🌟 Future Enhancements
 
-**Integrate with real-world e-commerce datasets**
-
-**Deploy forecasting model as an API**
-
-**Add interactive dashboards with Plotly/Dash**
-
-**Use deep learning for advanced demand forecasting**
+- **Integrate with real-world e-commerce datasets**  
+- **Deploy forecasting model as an API**  
+- **Add interactive dashboards with Plotly/Dash**  
+- **Use deep learning for advanced demand forecasting**
