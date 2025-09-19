@@ -94,9 +94,8 @@ To make the project interactive beyond Power BI, a **Streamlit app** was develop
 - Product-level profitability analysis  
 
 Run locally with:  
-```bash
-streamlit run app.py;
-'''
+- streamlit run app.py;
+
 ---
 
 ## 🛠️ Tools & Technologies
