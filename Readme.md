@@ -18,6 +18,8 @@
   <img src="Images/Retail Intelligence & Forecasting Platform_page-0002.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
   <img src="Images/Retail Intelligence & Forecasting Platform_page-0003.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
   <img src="Images/Retail Intelligence & Forecasting Platform_page-0004.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
+  <img src="Images/Retail Intelligence & Forecasting Platform_page-0005.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
+
 
 </p>
 
