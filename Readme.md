@@ -99,8 +99,8 @@ streamlit run app.py
 
 ## 🛠️ Tools & Technologies
 
-- **Database:** PostgreSQL / MySQL 🗄️  
-- **Programming:** Python (Pandas, SQLAlchemy, NumPy) 🐍  
+- **Database:** MySQL 🗄️  
+- **Programming:** Python (Pandas, SQLAlchemy, NumPy , Seaborn , Matplotlib) 🐍  
 - **Libraries:** Faker, Matplotlib, Seaborn, Scikit-learn, Prophet/Statsmodels 📚  
 - **BI Tool:** Power BI 🖥️  
 - **Web App:** Streamlit 🌐  
@@ -122,8 +122,8 @@ streamlit run app.py
 
 1. **Clone the repo:**
 ```bash
-git clone https://github.com/yourusername/Retail-Intelligence-Forecasting.git
-cd Retail-Intelligence-Forecasting
+git clone https://github.com/MdAjams/Retail-E-Commerce-Analytics-Forecasting.git
+cd Retail-Intelligence-Forecasting '''
 
 **Setup database MySQL)**
 - psql -U user -d retail_db -f Data/Schema.sql
