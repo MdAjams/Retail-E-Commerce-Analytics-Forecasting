@@ -122,18 +122,18 @@ Run locally with:
 
 ## 🚀 How to Run
 
-1. **Clone the repo:**  
-git clone https://github.com/MdAjams/Retail-E-Commerce-Analytics-Forecasting.git  
-cd Retail-Intelligence-Forecasting
+**Clone the repo:**  
+`git clone https://github.com/MdAjams/Retail-E-Commerce-Analytics-Forecasting.git`  
+`cd Retail-Intelligence-Forecasting`
 
-2. **Setup database (MySQL):**  
-psql -U user -d retail_db -f Data/Schema.sql
+**Setup database (MySQL):**  
+`psql -U user -d retail_db -f Data/Schema.sql`
 
-3. **Generate sample data:**  
-python Data/DataGeneration.py
+**Generate sample data:**  
+`python Data/DataGeneration.py`
 
-4. **Launch Streamlit app:**  
-streamlit run Streamlit_App/app.py
+**Launch Streamlit app:**  
+`streamlit run Streamlit_App/app.py`
 
 ---
 
