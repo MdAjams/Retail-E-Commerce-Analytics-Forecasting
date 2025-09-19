@@ -143,3 +143,17 @@ Run locally with:
 - **Deploy forecasting model as an API**  
 - **Add interactive dashboards with Plotly/Dash**  
 - **Use deep learning for advanced demand forecasting**
+- ## 📖 Case Study
+
+Download the full case study PDF here:  
+[📄 Retail Intelligence Case Study](Docs/Retail Intelligence.pdf)
+
+---
+
+## 👨‍💻 Author
+
+**Md Ajam**  
+📧 Email: mdajamansari099@gmail.com   
+🔗 [LinkedIn](https://www.linkedin.com/in/mdajam/)  
+🔗 [GitHub](https://github.com/MdAjams)
+
