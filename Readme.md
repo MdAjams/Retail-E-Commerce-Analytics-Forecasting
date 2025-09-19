@@ -15,6 +15,10 @@
 
 <p align="center">
   <img src="Images/Retail Intelligence & Forecasting Platform_page-0001.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
+  <img src="Images/Retail Intelligence & Forecasting Platform_page-0002.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
+  <img src="Images/Retail Intelligence & Forecasting Platform_page-0003.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
+  <img src="Images/Retail Intelligence & Forecasting Platform_page-0004.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
+
 </p>
 
 
@@ -57,9 +61,9 @@ It demonstrates the **complete lifecycle** of a data project:
 
 ## ⚙️ Architecture & Workflow  
 
-```mermaid
 flowchart TD
-A[Data Generation - Faker] --> B[SQL Database]
+A --> B[Data Generation - Faker] --> 
+      B[SQL Database]
 B --> C[ETL + Advanced SQL Queries]
 C --> D[Python EDA & ML Models]
 D --> E[Forecasting - Prophet/ARIMA]
