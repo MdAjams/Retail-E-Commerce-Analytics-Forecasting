@@ -95,7 +95,9 @@ To make the project interactive beyond Power BI, a **Streamlit app** was develop
 
 Run locally with:  
 ```bash
-streamlit run app.py
+streamlit run app.py;
+'''
+---
 
 ## 🛠️ Tools & Technologies
 
