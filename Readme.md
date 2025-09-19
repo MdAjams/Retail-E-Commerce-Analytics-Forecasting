@@ -10,7 +10,13 @@
 
 ## 🚀 Live Demo  
 🌐 **Streamlit App:** [Click Here](#)  
-📊 **Power BI Dashboard Screenshots:** [View Here](#)  
+📊 **Power BI Dashboard Screenshots:** 
+## 📊 Dashboard Preview
+
+<p align="center">
+  <img src="Images/Retail Intelligence & Forecasting Platform_page-0001.jpg" alt="Retail Intelligence & Forecasting Dashboard" width="800"/>
+</p>
+
 
 ---
 
