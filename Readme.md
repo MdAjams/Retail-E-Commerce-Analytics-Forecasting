@@ -1,7 +1,7 @@
 # 🛒 Retail Intelligence & Forecasting Platform  
 
 <p align="center">
-  <img src="Images/Retail_logo1.jpg" alt="Retail Intelligence Logo" width="300"/>
+  <img src="Images/Retail_logo1.jpg" alt="Retail Intelligence Logo" width="1000"/>
 </p>  
 
 ## 📌 Overview  
