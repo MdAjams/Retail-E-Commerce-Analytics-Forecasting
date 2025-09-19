@@ -1,7 +1,8 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-retail-shopping-flaticons-lineal-color-flat-icons.png" width="120"/>
+  <img src="Images/Retail_logo1.jpg" alt="Retail Intelligence Logo" width="250"/>
 </p>
+
 
 <h1 align="center"> 🛒 Retail Intelligence & Forecasting Platform </h1>
 <p align="center"> <b>End-to-End Retail & E-commerce Analytics Solution</b> </p>
