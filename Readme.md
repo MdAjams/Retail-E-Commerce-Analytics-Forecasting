@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="Images/Retail_logo1.jpg" alt="Retail Intelligence Logo" width="250"/>
+  <img src="Images/Retail_logo1.jpg" alt="Retail Intelligence Logo" width="800"/>
 </p>
 
 
