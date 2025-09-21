@@ -17,6 +17,17 @@ The final output includes:
 - A **business case study & portfolio deck**  
 
 ---
+# Retail Intelligence & Forecasting Platform  
+
+🚀 Live Dashboard: [Click here to explore](https://retailanalytics-ajam.streamlit.app/)  
+
+This platform provides insights into:  
+- Sales performance  
+- Customer behavior  
+- Forecasting trends  
+- Interactive filters & what-if analysis  
+
+---
 
 ## 🎯 Objectives  
 Turn raw e-commerce data into **actionable insights** that help businesses make decisions around:  
