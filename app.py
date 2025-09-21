@@ -52,29 +52,6 @@ def to_excel_bytes(df):
         df.to_excel(writer, index=False)
     return out.getvalue()
 
-def animated_kpi_html(title, value, gradient="linear-gradient(135deg,#667eea,#764ba2)", icon=""):
-    uid = "kpi_" + str(np.random.randint(1e9))
-    js_val = int(value) if not pd.isna(value) else 0
-    html = f"""
-    <div style="border-radius:14px;padding:18px;color:white;background:{gradient};
-                box-shadow:0 8px 28px rgba(10,20,40,0.15);text-align:center;">
-      <div style="font-size:20px;font-weight:700;">{icon} {title}</div>
-      <div id="{uid}" style="font-size:28px;font-weight:800;">0</div>
-    </div>
-    <script>
-      let el = document.getElementById("{uid}");
-      let target = {js_val};
-      let cur = 0; let step = target/50;
-      function run() {{
-        cur += step;
-        if(cur>=target){{ el.innerText = target.toLocaleString(); }}
-        else {{ el.innerText = Math.round(cur).toLocaleString(); requestAnimationFrame(run); }}
-      }}
-      run();
-    </script>
-    """
-    return html
-
 # ---------------- Load Data ----------------
 sales_df, churned_df, churn_summary_df, forecast_df = load_data()
 
@@ -127,17 +104,21 @@ with col2:
 st.markdown("---")
 
 # ---------------- KPI Cards ----------------
-from streamlit.components.v1 import html as components_html
-import numpy as np
-
 def animated_kpi_html(title, value, gradient, icon=""):
-    uid = np.random.randint(1e9)  # unique ID for each card
+    uid = np.random.randint(1e9)  # unique ID
     return f"""
     <div style="background: {gradient};
-                border-radius:14px;padding:18px;color:white;
-                box-shadow:0 6px 20px rgba(0,0,0,0.15);text-align:center;">
-      <div style="font-size:22px;font-weight:700;">{icon} {title}</div>
-      <div id="val{uid}" style="font-size:32px;font-weight:800;">0</div>
+                border-radius:14px;
+                padding:18px;
+                color:white;
+                box-shadow:0 6px 20px rgba(0,0,0,0.15);
+                text-align:center;
+                height:140px; 
+                display:flex;
+                flex-direction:column;
+                justify-content:center;">
+      <div style="font-size:20px;font-weight:700;line-height:1.2;">{icon} {title}</div>
+      <div id="val{uid}" style="font-size:28px;font-weight:800;line-height:1.4;">0</div>
     </div>
     <script>
       let el = document.getElementById("val{uid}");
@@ -166,16 +147,15 @@ aov = total_revenue / total_orders if total_orders else 0
 # ---- KPI Layout ----
 c1, c2, c3, c4 = st.columns(4)
 with c1:
-    components_html(animated_kpi_html("Revenue", total_revenue, "linear-gradient(135deg,#667eea,#764ba2)", "💰"), height=140)
+    components_html(animated_kpi_html("Revenue", total_revenue, "linear-gradient(135deg,#667eea,#764ba2)", "💰"), height=160)
 with c2:
-    components_html(animated_kpi_html("Customers", total_customers, "linear-gradient(135deg,#ff758c,#ff7eb3)", "👥"), height=140)
+    components_html(animated_kpi_html("Customers", total_customers, "linear-gradient(135deg,#ff758c,#ff7eb3)", "👥"), height=160)
 with c3:
-    components_html(animated_kpi_html("Orders", total_orders, "linear-gradient(135deg,#43cea2,#185a9d)", "🛍️"), height=140)
+    components_html(animated_kpi_html("Orders", total_orders, "linear-gradient(135deg,#43cea2,#185a9d)", "🛍️"), height=160)
 with c4:
-    components_html(animated_kpi_html("AOV", int(aov), "linear-gradient(135deg,#ff9966,#ff5e62)", "📦"), height=140)
+    components_html(animated_kpi_html("AOV", int(aov), "linear-gradient(135deg,#ff9966,#ff5e62)", "📦"), height=160)
 
 st.markdown("---")
-
 
 # ---------------- Tabs ----------------
 tab1,tab2,tab3,tab4,tab5=st.tabs(["📈 Sales","👥 Segmentation","❌ Churn","🔮 Forecast","🧰 Tools"])
