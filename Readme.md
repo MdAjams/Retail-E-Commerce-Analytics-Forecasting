@@ -1,8 +1,4 @@
-# 🛒 Retail Intelligence & Forecasting Platform  
-
-<p align="center">
-  <img src="Images/Retail_logo1.jpg" alt="Retail Intelligence Logo" width="1000"/>
-</p>  
+# 🛒 Retail Intelligence & Forecasting Platform    
 
 ## 📌 Overview  
 This project is an **end-to-end data analytics and forecasting solution** for the retail & e-commerce sector.  
@@ -15,11 +11,14 @@ The final output includes:
 - **Power BI dashboard** with executive-ready insights  
 - **Streamlit app** for interactive exploration  
 - A **business case study & portfolio deck**  
-
+<p align="center">
+  <img src="Images/Retail_logo1.jpg" alt="Retail Intelligence Logo" width="1000"/>
+</p>
 ---
 # Retail Intelligence & Forecasting Platform  
 
-🚀 Live Dashboard: [Click here to explore](https://retailanalytics-ajam.streamlit.app/)  
+## 🚀 Live Dashboard: 
+[Click here to explore](https://retailanalytics-ajam.streamlit.app/)  
 
 This platform provides insights into:  
 - Sales performance  
